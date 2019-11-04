@@ -7,21 +7,36 @@ spring:
     name: user-service
     
 server:
+<<<<<<< HEAD
   port: 8101
+=======
+ port: 8101
+>>>>>>> refs/remotes/origin/master
 
 eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka,http://eureka2:2002/eureka
       
+<<<<<<< HEAD
       
+=======
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+>>>>>>> refs/remotes/origin/master
 
+<<<<<<< HEAD
 management:
   endpoints:
     web:
       exposure:
         include: refresh
 
+=======
+>>>>>>> refs/remotes/origin/master
       
 #---
 #spring:
